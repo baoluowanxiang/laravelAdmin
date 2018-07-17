@@ -4,15 +4,29 @@
 lv5admin 是使用laravel5.6开发的一个后台管理
 
 初次使用laravel,错误之处还请大师们指点,使用中有不明之处联系QQ:5552123(阿杜) 
+
 ## 使用说明
 
-初次使用请将根目录下的 复制.env.example 为.evn,将数据库账号与密码更新. 
+初次使用请将根目录下的 .env 将数据库账号与密码更新. 
 
 数据库:database 目录中
 
+在根目录下运下命令 php artisan serve
+
+访问 http://127.0.0.1:8000
+
 后台账号:  用户名 admin 密码 admin
 
-##nginx配置
+
+
+
+
+
+
+
+
+
+##使用nginx配置
 
 ```
 server {
